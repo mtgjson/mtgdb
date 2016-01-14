@@ -1,0 +1,11 @@
+{
+  "name"         : "mtgdb",
+  "version"      : "1.0.0",
+  "description"  : "Simple database to handle Magic: the Gathering data from MTGJSON",
+  "main"         : "mtgdb.js",
+  "license"      : "MIT",
+  "repository"   : "https://github.com/mtgjson/mtgdb.git",
+  "dependencies" : {
+    "tiptoe" : ">= 1.0.0"
+  }
+}
