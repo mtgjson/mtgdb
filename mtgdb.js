@@ -129,7 +129,7 @@ Array.prototype.forEachCallback = function(callback, finishCallback) {
 							if (err)
 								callback(err);
 
-							callback();
+							exports.allsets(callback);
 						}
 					);
 				});
